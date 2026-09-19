@@ -23,7 +23,31 @@ app.get('/sitemap.xml', (req, res) => {
    </url>
 </urlset>`);
 });
-
+json
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://powerinthenumbers.ai",
+      "name": "Power In The Numbers, LLC",
+      "url": "https://powerinthenumbers.ai",
+      "sameAs": [
+        "https://pitn.ai",
+        "https://roboparts.ai"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://powerinthenumbers.ai#website",
+      "url": "https://powerinthenumbers.ai",
+      "name": "Power In The Numbers",
+      "publisher": { "@id": "https://powerinthenumbers.ai" }
+    }
+  ]
+}
+</script>
 // Authoritative Robots Crawl Rule Path Handler
 app.get('/robots.txt', (req, res) => {
   res.header('Content-Type', 'text/plain');
