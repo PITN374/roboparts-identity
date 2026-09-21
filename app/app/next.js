@@ -48,6 +48,10 @@ json
   ]
 }
 </script>
+https://powerinthenumbers.ai/
+https://powerinthenumbers.ai/robots.txt
+https://powerinthenumbers.ai/sitemap.xml
+
 // Authoritative Robots Crawl Rule Path Handler
 app.get('/robots.txt', (req, res) => {
   res.header('Content-Type', 'text/plain');
