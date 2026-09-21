@@ -1,10 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://powerinthenumbers.ai
-Sitemap: https://pitn.ai
-Sitemap: https://roboparts.ai
-User-agent: *
-Allow: /
-
-Sitemap: https://powerinthenumbers.ai
+Sitemap: https://powerinthenumbers.ai/sitemap.xml
